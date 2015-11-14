@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Teste
+    </title>
+    <link href="lib/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="source/estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <section class="cabessa">
+        <div class="head"></div>
+        <div class="texto">
+            <h3>Cadastro</h3>
+        </div>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputNome" class="col-sm-1 control-label">Nome</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputNome" placeholder="ex: João Ninguém">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputApelido" class="col-sm-1 control-label">Apelido</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputApelido" placeholder="ex: Jão">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputCPF" class="col-sm-1 control-label">CPF</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputCPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="Insira um CPF válido xxx.xxx.xxx-xx">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-1 control-label">Email</label>
+                <div class="col-sm-5">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="ex: joao@ninguem.com">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-1 control-label">Senha</label>
+                <div class="col-sm-5">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="ex: ********">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-1 col-sm-10">
+                    Já tem uma conta?<a href="index.html"> Faça login</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-1 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer class="pezin col-sm-12">
+        <div class="imagem col-sm-offset-5 col-sm-3">
+            <img src="source/ufrj-logo-6-minerva.png" class="um">
+            <img src="source/tic_preto.gif" class="dois">
+        </div>
+    </footer>
+</div>
+<script src="lib/bootstrap-3.3.5-dist/js" type="text/javascript"></script>
+</body>
+</html>
